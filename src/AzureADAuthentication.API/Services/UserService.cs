@@ -37,11 +37,11 @@ public sealed class UserService(
 
         var scopes = new[] { "https://graph.microsoft.com/.default" };
 
-        var tenantId = "0aa9ab8d-3a8b-4d4c-9baf-c3ff54cd3f1c";
+        var tenantId = "";
 
-        var clientId = "be3a2811-df73-496b-93c0-e55167558ca6";
+        var clientId = "";
 
-        var clientSecret = "VgV8Q~ufUEijGKoqTUAzy2dLQ7qgOy-1qj6bRdri";
+        var clientSecret = "";
 
         var options = new ClientSecretCredentialOptions
         {
