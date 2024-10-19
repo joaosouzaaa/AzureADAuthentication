@@ -5,10 +5,6 @@ VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureADAuthentication.API", "src\AzureADAuthentication.API\AzureADAuthentication.API.csproj", "{3930A6A4-3878-476A-8E5B-0C98DA76861D}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{D2B4EB72-2F46-444A-9366-A6A6FAE1E379}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{21794500-4B79-4413-AB1B-09FA7B75D888}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,16 +15,9 @@ Global
 		{3930A6A4-3878-476A-8E5B-0C98DA76861D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3930A6A4-3878-476A-8E5B-0C98DA76861D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3930A6A4-3878-476A-8E5B-0C98DA76861D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{21794500-4B79-4413-AB1B-09FA7B75D888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{21794500-4B79-4413-AB1B-09FA7B75D888}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{21794500-4B79-4413-AB1B-09FA7B75D888}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{21794500-4B79-4413-AB1B-09FA7B75D888}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{21794500-4B79-4413-AB1B-09FA7B75D888} = {D2B4EB72-2F46-444A-9366-A6A6FAE1E379}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13D3B52B-63D6-49A9-9464-D850975A72C6}

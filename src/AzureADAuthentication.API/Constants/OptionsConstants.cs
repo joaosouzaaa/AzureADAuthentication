@@ -2,5 +2,5 @@
 
 public static class OptionsConstants
 {
-    public const string TokenSection = "Token";
+    public const string AzureAdSection = "AzureAd";
 }
