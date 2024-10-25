@@ -7,7 +7,6 @@ internal static class DependencyInjectionHandler
         services.AddCorsDependencyInjection();
         services.AddSwaggerDependencyInjection();
 
-        services.AddOptionsDependencyInjection(configuration);
         services.AddAuthenticationDependencyInjection(configuration);
     }
 }

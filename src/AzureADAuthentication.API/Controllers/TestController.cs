@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Identity.Web.Resource;
 
 namespace AzureADAuthentication.API.Controllers;
 
@@ -8,6 +9,7 @@ namespace AzureADAuthentication.API.Controllers;
 public sealed class TestController : ControllerBase
 {
     [Authorize]
+    [RequiredScope("Test.Read")]
     [HttpGet]
     [ProducesResponseType(StatusCodes.Status200OK)]
     [ProducesResponseType(StatusCodes.Status401Unauthorized)]
